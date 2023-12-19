@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PSK-S25B-5-PB")(type "KiCad")(uri "${KIPRJMOD}/Elements/PSK-S25B-5-PB")(options "")(descr ""))
+  (lib (name "ESP32-DEVKITC-32D")(type "KiCad")(uri "${KIPRJMOD}/Elements/ESP32-DEVKITC-32D")(options "")(descr ""))
+  (lib (name "NHD-0420CW-AB3")(type "KiCad")(uri "${KIPRJMOD}/Elements/NHD-0420CW-AB3")(options "")(descr ""))
+)

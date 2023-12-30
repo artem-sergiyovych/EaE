@@ -1,0 +1,134 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MCT2E
+#
+DEF MCT2E U 0 40 Y N 1 L N
+F0 "U" -300 300 50 H V L BNN
+F1 "MCT2E" -300 -400 50 H V L BNN
+F2 "DIP762W50P254L742H480Q6" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "" 0 0 50 H I L BNN "L1_NOM"
+F5 "" 0 0 50 H I L BNN "SNAPEDA_PACKAGE_ID"
+F6 "0.5" 0 0 50 H I L BNN "B_NOM"
+F7 "" 0 0 50 H I L BNN "EMAX"
+F8 "7.42" 0 0 50 H I L BNN "D_MAX"
+F9 "" 0 0 50 H I L BNN "PACKAGE_TYPE"
+F10 "" 0 0 50 H I L BNN "L1_MAX"
+F11 "6.5" 0 0 50 H I L BNN "E1_NOM"
+F12 "" 0 0 50 H I L BNN "DMAX"
+F13 "6.2" 0 0 50 H I L BNN "E1_MIN"
+F14 "" 0 0 50 H I L BNN "L1_MIN"
+F15 "0.6" 0 0 50 H I L BNN "B_MAX"
+F16 "\nOptoisolator Transistor with Base Output 5300Vrms 1 Channel 6-DIP\n" 0 0 50 H I L BNN "Description"
+F17 "" 0 0 50 H I L BNN "EMIN"
+F18 "None" 0 0 50 H I L BNN "Price"
+F19 "2.54" 0 0 50 H I L BNN "ENOM"
+F20 "7.12" 0 0 50 H I L BNN "D_NOM"
+F21 "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2734202&manufacturer=ON Semiconductor&part_name=MCT2E&search_term=None" 0 0 50 H I L BNN "Purchase-URL"
+F22 "" 0 0 50 H I L BNN "VACANCIES"
+F23 "4.8" 0 0 50 H I L BNN "A_MAX"
+F24 "" 0 0 50 H I L BNN "D1_MAX"
+F25 "DIP-6 Boca Semiconductor" 0 0 50 H I L BNN "Package"
+F26 "" 0 0 50 H I L BNN "D1_NOM"
+F27 "" 0 0 50 H I L BNN "D1_MIN"
+F28 "4.8" 0 0 50 H I L BNN "A_NOM"
+F29 "https://www.snapeda.com/parts/MCT2E/Onsemi/view-part/?ref=eda" 0 0 50 H I L BNN "Check_prices"
+F30 "4.8" 0 0 50 H I L BNN "A_MIN"
+F31 "IPC 7351B" 0 0 50 H I L BNN "STANDARD"
+F32 "7" 0 0 50 H I L BNN "PARTREV"
+F33 "" 0 0 50 H I L BNN "DNOM"
+F34 "https://www.snapeda.com/parts/MCT2E/Onsemi/view-part/?ref=snap" 0 0 50 H I L BNN "SnapEDA_Link"
+F35 "" 0 0 50 H I L BNN "DMIN"
+F36 "7.62" 0 0 50 H I L BNN "E_NOM"
+F37 "0.4" 0 0 50 H I L BNN "B_MIN"
+F38 "6.0" 0 0 50 H I L BNN "PIN_COUNT"
+F39 "Everlight" 0 0 50 H I L BNN "MANUFACTURER"
+F40 "ON Semiconductor" 0 0 50 H I L BNN "MF"
+F41 "4.80mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F42 "6.8" 0 0 50 H I L BNN "E1_MAX"
+F43 "6.82" 0 0 50 H I L BNN "D_MIN"
+F44 "MCT2E" 0 0 50 H I L BNN "MP"
+F45 "" 0 0 50 H I L BNN "PINS"
+F46 "In Stock" 0 0 50 H I L BNN "Availability"
+DRAW
+P 2 0 0 10 -300 200 -190 200 N
+P 2 0 0 10 -190 200 -190 10 N
+P 2 0 0 10 -190 10 -170 10 N
+P 2 0 0 10 -160 10 -150 10 N
+P 2 0 0 10 -190 10 -220 10 N
+P 2 0 0 10 -220 10 -230 10 N
+P 2 0 0 10 -230 10 -190 -40 N
+P 2 0 0 10 -190 -40 -150 10 N
+P 2 0 0 10 -220 -50 -160 -50 N
+P 2 0 0 10 -190 -50 -190 -200 N
+P 2 0 0 10 -190 -200 -300 -200 N
+P 2 0 0 10 300 100 230 100 N
+P 2 0 0 10 230 100 230 90 N
+P 2 0 0 10 230 90 180 40 N
+P 2 0 0 10 180 40 180 -10 N
+P 2 0 0 10 180 -10 180 -50 N
+P 2 0 0 10 180 -50 230 -100 N
+P 2 0 0 10 230 -100 300 -100 N
+P 2 0 0 10 230 -90 230 -70 N
+P 2 0 0 10 230 -70 230 -60 N
+P 2 0 0 10 230 -60 200 -90 N
+P 2 0 0 10 200 -90 190 -100 N
+P 2 0 0 10 190 -100 220 -100 N
+P 2 0 0 10 220 -100 230 -100 N
+P 2 0 0 10 230 -100 230 -90 N
+P 2 0 0 10 230 -90 220 -80 N
+P 2 0 0 10 220 -80 210 -90 N
+P 2 0 0 10 200 -90 210 -90 N
+P 2 0 0 10 210 -90 220 -100 N
+P 2 0 0 10 220 -100 220 -80 N
+P 2 0 0 10 220 -80 230 -70 N
+P 2 0 0 10 180 -50 180 -60 N
+P 2 0 0 10 180 40 180 50 N
+P 2 0 0 10 -120 0 -30 0 N
+P 2 0 0 10 -30 0 -10 0 N
+P 2 0 0 10 -10 0 0 0 N
+P 2 0 0 10 -40 20 10 0 N
+P 2 0 0 10 10 0 -40 -20 N
+P 2 0 0 10 180 -10 90 -10 N
+P 2 0 0 10 90 -10 90 200 N
+P 2 0 0 10 90 200 300 200 N
+P 2 0 0 10 -40 20 -40 10 N
+P 2 0 0 10 -40 10 -40 -20 N
+P 2 0 0 10 -40 10 -10 0 N
+P 2 0 0 10 -10 0 -30 -10 N
+P 2 0 0 10 -30 -10 -30 0 N
+P 2 0 0 10 -120 -70 -30 -70 N
+P 2 0 0 10 -30 -70 -10 -70 N
+P 2 0 0 10 -10 -70 0 -70 N
+P 2 0 0 10 -40 -50 10 -70 N
+P 2 0 0 10 10 -70 -40 -90 N
+P 2 0 0 10 -40 -50 -40 -60 N
+P 2 0 0 10 -40 -60 -40 -90 N
+P 2 0 0 10 -40 -60 -10 -70 N
+P 2 0 0 10 -10 -70 -30 -80 N
+P 2 0 0 10 -30 -80 -30 -70 N
+P 2 0 0 10 -220 10 -190 -30 N
+P 2 0 0 10 -190 -30 -180 -10 N
+P 2 0 0 10 -180 -10 -170 10 N
+P 2 0 0 10 -170 10 -160 10 N
+P 2 0 0 10 -160 10 -190 -30 N
+P 2 0 0 10 -190 -30 -190 -10 N
+P 2 0 0 10 -190 -10 -190 0 N
+P 2 0 0 10 -190 0 -170 0 N
+P 2 0 0 10 -190 0 -210 0 N
+P 2 0 0 10 -210 0 -190 -10 N
+P 2 0 0 10 -190 -10 -180 -10 N
+P 2 0 0 10 -190 -10 -200 -10 N
+S -300 -300 300 300 0 0 10 f
+X ~ 1 -400 200 100 R 40 40 0 0 P 
+X ~ 2 -400 -200 100 R 40 40 0 0 P 
+X ~ 5 400 100 100 L 40 40 0 0 P 
+X ~ 4 400 -100 100 L 40 40 0 0 P 
+X ~ 6 400 200 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

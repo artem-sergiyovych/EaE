@@ -3657,7 +3657,7 @@
     (property "Value" "MOC3021M" (at 240.03 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Triac_BTA16:TO-220AB_STM" (at 234.95 107.95 0)
+    (property "Footprint" "MOC3021M:PDIP6_BX_ONS" (at 234.95 107.95 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/MOC3023M-D.PDF" (at 240.03 102.87 0)

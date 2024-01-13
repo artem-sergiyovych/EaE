@@ -4567,7 +4567,7 @@
     (property "Value" "10k" (at 33.02 184.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 28.702 182.88 90)
+    (property "Footprint" "Resistor_10k:RES_CFR25_TYCO_TYC" (at 28.702 182.88 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 30.48 182.88 0)
@@ -4593,14 +4593,14 @@
     (property "Value" "2k" (at 29.21 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 32.258 118.11 90)
+    (property "Footprint" "Resistor_2k:RES_TYCO_YR1_TYC" (at 32.258 118.11 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 30.48 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid dbccf066-6772-47c5-808e-83a4c7ccf2de))
     (pin "1" (uuid f795085b-d253-45a7-9dbc-44b47ab158e0))
+    (pin "2" (uuid dbccf066-6772-47c5-808e-83a4c7ccf2de))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -4645,7 +4645,7 @@
     (property "Value" "2k" (at 107.95 176.53 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 107.95 179.832 90)
+    (property "Footprint" "Resistor_2k:RES_TYCO_YR1_TYC" (at 107.95 179.832 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 107.95 181.61 0)
@@ -4671,14 +4671,14 @@
     (property "Value" "2k" (at 29.21 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 32.258 128.27 90)
+    (property "Footprint" "Resistor_2k:RES_TYCO_YR1_TYC" (at 32.258 128.27 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 30.48 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 13339836-e328-452c-b147-6d4055741014))
     (pin "1" (uuid fbc66919-569c-4e3b-9f5c-39097c636de3))
+    (pin "2" (uuid 13339836-e328-452c-b147-6d4055741014))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -4697,7 +4697,7 @@
     (property "Value" "18k" (at 33.02 201.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 28.702 200.66 90)
+    (property "Footprint" "Resistor_18k:RES0603_CRG_TYCO_TYC" (at 28.702 200.66 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 30.48 200.66 0)
@@ -4723,7 +4723,7 @@
     (property "Value" "18k" (at 90.17 237.49 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 92.202 236.22 90)
+    (property "Footprint" "Resistor_18k:RES0603_CRG_TYCO_TYC" (at 92.202 236.22 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 93.98 236.22 0)
@@ -4776,14 +4776,14 @@
     (property "Value" "1M" (at 36.83 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 32.512 118.11 90)
+    (property "Footprint" "Resistor_1M:RES0805_CRG_TYCO_TYC" (at 32.512 118.11 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 34.29 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid c41e6358-e7a1-4efb-a545-3b162ef32718))
     (pin "1" (uuid e269b775-3aee-4d14-965e-8a5a676fbf20))
+    (pin "2" (uuid c41e6358-e7a1-4efb-a545-3b162ef32718))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -4808,8 +4808,8 @@
     (property "Datasheet" "~" (at 105.41 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 6e3ef72d-ab91-4948-8ad8-50ddd4781cc2))
     (pin "1" (uuid 7f6b905d-790f-49fe-8ad9-0802faa97f14))
+    (pin "2" (uuid 6e3ef72d-ab91-4948-8ad8-50ddd4781cc2))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -4828,15 +4828,15 @@
     (property "Value" "1M" (at 143.51 179.07 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 143.51 181.61 0)
+    (property "Footprint" "Resistor_1M:RES0805_CRG_TYCO_TYC" (at 143.51 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 143.51 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid edca4643-da43-4ac0-8800-9500cd24d596))
     (pin "2" (uuid f2dd7ee5-5cba-49c7-8b74-82f16e43eb70))
     (pin "3" (uuid 73abb7a5-6a53-46ef-b0c2-74fb9ddb8165))
-    (pin "1" (uuid edca4643-da43-4ac0-8800-9500cd24d596))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -4906,7 +4906,7 @@
     (property "Value" "1u" (at 44.45 157.48 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 48.26 152.7048 0)
+    (property "Footprint" "Capacitor_1uF:CAP_BFC237012105_VIS" (at 48.26 152.7048 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 44.45 153.67 0)
@@ -4963,8 +4963,8 @@
     (property "Datasheet" "~" (at 187.96 243.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 37f28923-9c98-47aa-a116-adbcf2e94405))
     (pin "1" (uuid af7c0ad1-6a0f-49eb-b00b-2f305bff83da))
+    (pin "2" (uuid 37f28923-9c98-47aa-a116-adbcf2e94405))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -5034,7 +5034,7 @@
     (property "Value" "6.8k" (at 119.38 184.15 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 119.38 187.452 90)
+    (property "Footprint" "Resistor_6_8k:RES_ROX1S_TYCO_TYC" (at 119.38 187.452 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 119.38 189.23 0)
@@ -5260,8 +5260,8 @@
     (property "Datasheet" "~" (at 40.64 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 0613d673-7168-4172-b497-e22369025f8a))
     (pin "1" (uuid 2dba7def-5729-4e65-89ab-9fad115f2be0))
+    (pin "2" (uuid 0613d673-7168-4172-b497-e22369025f8a))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -5280,7 +5280,7 @@
     (property "Value" "18k" (at 58.42 200.66 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 58.42 206.248 90)
+    (property "Footprint" "Resistor_18k:RES0603_CRG_TYCO_TYC" (at 58.42 206.248 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 58.42 204.47 0)
@@ -5306,17 +5306,17 @@
     (property "Value" "PEC11H" (at 113.03 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 109.22 145.796 0)
+    (property "Footprint" "PEC11H_RE:PEC11H4025FS0016" (at 109.22 145.796 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 113.03 143.256 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "B" (uuid 5fe03737-1a5b-4324-af6a-bb09f47e0d19))
     (pin "A" (uuid 0763b18e-698c-40f9-9438-41bba793c7a9))
-    (pin "S2" (uuid d461b399-090b-4069-9269-a30fcd94b12c))
+    (pin "B" (uuid 5fe03737-1a5b-4324-af6a-bb09f47e0d19))
     (pin "C" (uuid eb624dae-f183-4d32-9bd4-8a4d9dccbf73))
     (pin "S1" (uuid af07c855-d379-4f7f-b2a9-a290d28affe0))
+    (pin "S2" (uuid d461b399-090b-4069-9269-a30fcd94b12c))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -5341,8 +5341,8 @@
     (property "Datasheet" "~" (at 90.17 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid d36247af-a4c4-4ecd-903c-e4d7eb99de88))
     (pin "1" (uuid 01efc3e2-b6ba-4665-9147-899fe43f0fff))
+    (pin "2" (uuid d36247af-a4c4-4ecd-903c-e4d7eb99de88))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -5438,17 +5438,17 @@
     (property "Value" "PEC11H" (at 167.64 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 163.83 145.796 0)
+    (property "Footprint" "PEC11H_RE:PEC11H4025FS0016" (at 163.83 145.796 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 167.64 143.256 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "B" (uuid 42f482e9-464e-4462-803d-b75cfb33b648))
     (pin "A" (uuid 3d2e001c-f87a-4281-8b14-cd580c3e5118))
-    (pin "S2" (uuid 6c202b7d-37d1-4969-9d00-d43a3eba7d19))
+    (pin "B" (uuid 42f482e9-464e-4462-803d-b75cfb33b648))
     (pin "C" (uuid 0dcc081a-51d1-49f9-864b-ca32a199530a))
     (pin "S1" (uuid e66f2007-197d-4a67-8262-6d11a0db9959))
+    (pin "S2" (uuid 6c202b7d-37d1-4969-9d00-d43a3eba7d19))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -5493,14 +5493,14 @@
     (property "Value" "R_Photo" (at 64.77 241.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 63.5 246.38 90)
+    (property "Footprint" "Photoresistor:LDR1_NTE" (at 63.5 246.38 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "~" (at 62.23 241.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 176a41d1-e830-41b2-bf87-984244e76797))
     (pin "1" (uuid 3187f312-610b-4e22-9b53-0595c0b98902))
+    (pin "2" (uuid 176a41d1-e830-41b2-bf87-984244e76797))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -5519,14 +5519,14 @@
     (property "Value" "1M" (at 35.56 147.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 32.512 147.32 90)
+    (property "Footprint" "Resistor_1M:RES0805_CRG_TYCO_TYC" (at 32.512 147.32 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 34.29 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 598294d8-048f-475a-b523-9927f17cf366))
     (pin "1" (uuid 4e8c102e-6eca-48cc-9f40-5d3d31d2e8a4))
+    (pin "2" (uuid 598294d8-048f-475a-b523-9927f17cf366))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -5780,7 +5780,7 @@
     (property "Value" "10k" (at 142.24 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 145.542 153.67 90)
+    (property "Footprint" "Resistor_10k:RES_CFR25_TYCO_TYC" (at 145.542 153.67 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 147.32 153.67 0)
@@ -5806,7 +5806,7 @@
     (property "Value" "10k" (at 157.48 163.83 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 154.94 163.068 90)
+    (property "Footprint" "Resistor_10k:RES_CFR25_TYCO_TYC" (at 154.94 163.068 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 154.94 161.29 0)
@@ -5882,14 +5882,14 @@
     (property "Value" "47u" (at 46.99 246.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 53.34 245.11 0)
+    (property "Footprint" "Capacitor_47uF:CAP_EEFK_D_PAN" (at 53.34 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 53.34 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid f36dc956-f5d9-4b40-91b7-d9b2775248d4))
     (pin "1" (uuid 30ff4649-0db9-4d92-8151-32759fb22cbc))
+    (pin "2" (uuid f36dc956-f5d9-4b40-91b7-d9b2775248d4))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -5961,7 +5961,7 @@
     (property "Value" "0.1u" (at 21.59 119.38 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 20.32 124.1552 0)
+    (property "Footprint" "Capacitor_0_1uF:CAP_BFC233814104_VIS" (at 20.32 124.1552 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 24.13 123.19 0)
@@ -6044,8 +6044,8 @@
     (property "Datasheet" "~" (at 105.41 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 72e0265a-727a-45ac-844f-590f01e01310))
     (pin "1" (uuid 8eb4f98c-a5d6-4f1b-8d02-22dc51cf0097))
+    (pin "2" (uuid 72e0265a-727a-45ac-844f-590f01e01310))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -6064,7 +6064,7 @@
     (property "Value" "1M" (at 119.38 234.95 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 117.348 236.22 90)
+    (property "Footprint" "Resistor_1M:RES0805_CRG_TYCO_TYC" (at 117.348 236.22 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 115.57 236.22 0)
@@ -6090,7 +6090,7 @@
     (property "Value" "1K" (at 157.48 210.82 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 157.48 216.408 90)
+    (property "Footprint" "Resistor_1k:RES_CFR200_TYCO_TYC" (at 157.48 216.408 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 157.48 214.63 0)
@@ -6122,8 +6122,8 @@
     (property "Datasheet" "~" (at 167.64 243.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid e2eca579-ab42-4134-b3cf-7165954b7461))
     (pin "1" (uuid 32fac098-d594-4ce9-bb2d-d13abbaa6fef))
+    (pin "2" (uuid e2eca579-ab42-4134-b3cf-7165954b7461))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -6412,22 +6412,22 @@
     (property "E_MAX" "6.0" (at 134.62 217.17 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (pin "13" (uuid 4a295195-c4c1-4121-8ebd-280fb5e8f490))
+    (pin "1" (uuid 184e1b51-c6f0-472a-855b-bdadf31251c4))
     (pin "10" (uuid 1c31e065-af9b-433a-a6d1-d93212b13f8b))
+    (pin "11" (uuid 4bf42bdd-02fe-48b7-b9c6-1d4228ea52d4))
+    (pin "12" (uuid b69edcdd-bf92-40b7-831d-a17d9d36f84a))
+    (pin "13" (uuid 4a295195-c4c1-4121-8ebd-280fb5e8f490))
+    (pin "14" (uuid 4e35b34a-5290-4a7d-aa45-6b2d07f3f21d))
     (pin "15" (uuid c0c42bb0-8b60-4f99-a9a7-900fc0ea179c))
-    (pin "8" (uuid 27a7f855-b6cb-406d-a468-b674df74d373))
+    (pin "16" (uuid 782fabf6-d69a-4d52-a3cb-92da7f351a5b))
+    (pin "2" (uuid 52a0d996-6de4-4b9e-9fc2-f2de9e0836d8))
+    (pin "3" (uuid aedf38d7-fb1a-44d9-92b3-e6772610b437))
     (pin "4" (uuid a1d30833-fa24-4288-b1ba-6ade46ffdee5))
     (pin "5" (uuid 170b52dc-8f6c-4536-8d24-d7d5da9c0c60))
-    (pin "1" (uuid 184e1b51-c6f0-472a-855b-bdadf31251c4))
-    (pin "2" (uuid 52a0d996-6de4-4b9e-9fc2-f2de9e0836d8))
     (pin "6" (uuid ae2585dc-d008-4b46-ae15-a5a93bddd249))
-    (pin "12" (uuid b69edcdd-bf92-40b7-831d-a17d9d36f84a))
     (pin "7" (uuid bf5d4905-5d41-4832-b0d1-6b4313cafbcc))
-    (pin "3" (uuid aedf38d7-fb1a-44d9-92b3-e6772610b437))
+    (pin "8" (uuid 27a7f855-b6cb-406d-a468-b674df74d373))
     (pin "9" (uuid 2e7a9b51-fc5e-40f6-8bb4-ed37c46eb939))
-    (pin "16" (uuid 782fabf6-d69a-4d52-a3cb-92da7f351a5b))
-    (pin "11" (uuid 4bf42bdd-02fe-48b7-b9c6-1d4228ea52d4))
-    (pin "14" (uuid 4e35b34a-5290-4a7d-aa45-6b2d07f3f21d))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -6446,7 +6446,7 @@
     (property "Value" "470k" (at 133.35 176.53 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 133.35 179.832 90)
+    (property "Footprint" "Resistor_470k:RES0805_CRG_TYCO_TYC" (at 133.35 179.832 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 133.35 181.61 0)
@@ -6472,7 +6472,7 @@
     (property "Value" "1M" (at 101.6 191.77 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 99.568 193.04 90)
+    (property "Footprint" "Resistor_1M:RES0805_CRG_TYCO_TYC" (at 99.568 193.04 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 97.79 193.04 0)
@@ -6523,14 +6523,14 @@
     (property "Value" "100k" (at 66.04 144.78 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 66.04 149.098 90)
+    (property "Footprint" "Resistor_100k:RES0402_CRG_TYCO_TYC" (at 66.04 149.098 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 66.04 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 5b7ec55c-4b05-4e21-97ee-729c4aecba16))
     (pin "1" (uuid bd0684b7-a053-4287-aee7-0e1e3512a017))
+    (pin "2" (uuid 5b7ec55c-4b05-4e21-97ee-729c4aecba16))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -6576,11 +6576,11 @@
     (property "MP" "MAX4466EXK+T" (at 54.61 129.54 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (pin "4" (uuid ed5a2346-58d0-4ae7-8147-4d0f4ddc93e1))
-    (pin "3" (uuid de3d35cf-71c2-47f4-b614-2e6a1bb8b427))
-    (pin "2" (uuid 6701b8bd-e76b-4e3b-a670-10cbb46f212d))
-    (pin "5" (uuid aa908878-434e-408a-a09f-ac8dc2f0b2f3))
     (pin "1" (uuid 6e4bb4ba-5857-4868-8a66-e53d450774b6))
+    (pin "2" (uuid 6701b8bd-e76b-4e3b-a670-10cbb46f212d))
+    (pin "3" (uuid de3d35cf-71c2-47f4-b614-2e6a1bb8b427))
+    (pin "4" (uuid ed5a2346-58d0-4ae7-8147-4d0f4ddc93e1))
+    (pin "5" (uuid aa908878-434e-408a-a09f-ac8dc2f0b2f3))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -6624,14 +6624,14 @@
     (property "Value" "22u" (at 91.44 184.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 97.79 185.42 0)
+    (property "Footprint" "Capacitor_22uF:PCAP_125x25_PAN" (at 97.79 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 97.79 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 382bb579-7b3f-49fe-abde-53cac870d11d))
     (pin "1" (uuid fb3f6212-edb7-4503-acc9-6d31f42a4acb))
+    (pin "2" (uuid 382bb579-7b3f-49fe-abde-53cac870d11d))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -6675,14 +6675,14 @@
     (property "Value" "47u" (at 86.36 247.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 93.98 248.92 0)
+    (property "Footprint" "Capacitor_47uF:CAP_EEFK_D_PAN" (at 93.98 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 93.98 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid e9ea8109-0a3a-41a8-850a-6ea3a502b764))
     (pin "1" (uuid 8d754a9a-be93-49e0-8591-2ecc48183913))
+    (pin "2" (uuid e9ea8109-0a3a-41a8-850a-6ea3a502b764))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -6759,8 +6759,8 @@
     (property "Datasheet" "~" (at 107.95 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 64aba3e3-73a6-4ab8-9c69-ce8fb3db6726))
     (pin "1" (uuid 5d944416-58e6-4d4d-ae4b-e0e55b69c928))
+    (pin "2" (uuid 64aba3e3-73a6-4ab8-9c69-ce8fb3db6726))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -6779,7 +6779,7 @@
     (property "Value" "1M" (at 64.77 231.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 60.452 229.87 90)
+    (property "Footprint" "Resistor_1M:RES0805_CRG_TYCO_TYC" (at 60.452 229.87 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 62.23 229.87 0)
@@ -6805,14 +6805,14 @@
     (property "Value" "22u" (at 165.1 190.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 172.72 191.77 0)
+    (property "Footprint" "Capacitor_22uF:PCAP_125x25_PAN" (at 172.72 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 172.72 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid b536dcaa-9a16-4169-af7d-d061f2612ebe))
     (pin "1" (uuid bdfb9d48-dd30-426c-8386-63008791fffe))
+    (pin "2" (uuid b536dcaa-9a16-4169-af7d-d061f2612ebe))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -6831,7 +6831,7 @@
     (property "Value" "10k" (at 160.02 224.79 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 160.02 221.488 90)
+    (property "Footprint" "Resistor_10k:RES_CFR25_TYCO_TYC" (at 160.02 221.488 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 160.02 219.71 0)
@@ -6987,14 +6987,14 @@
     (property "Value" "10k" (at 52.07 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 49.022 147.32 90)
+    (property "Footprint" "Resistor_10k:RES_CFR25_TYCO_TYC" (at 49.022 147.32 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 50.8 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 3dfea985-5609-434e-b9bc-ad2bc9b82b4a))
     (pin "1" (uuid 867c0686-7ef5-4661-823b-632de53b31d8))
+    (pin "2" (uuid 3dfea985-5609-434e-b9bc-ad2bc9b82b4a))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -7147,8 +7147,8 @@
     (property "Datasheet" "~" (at 25.4 144.78 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 4f1bea30-c046-4e94-b46f-6378e595c555))
     (pin "1" (uuid cd1f0524-c99b-486c-8a97-f8e4629f6762))
+    (pin "2" (uuid 4f1bea30-c046-4e94-b46f-6378e595c555))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -7167,7 +7167,7 @@
     (property "Value" "0.01u" (at 29.21 142.24 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 33.02 137.4648 0)
+    (property "Footprint" "Capacitor_0_01uF:CAP_BFC237035223_VIS" (at 33.02 137.4648 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 29.21 138.43 0)
@@ -7221,15 +7221,15 @@
     (property "Value" "1M" (at 184.15 215.9 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 184.15 219.71 0)
+    (property "Footprint" "Resistor_1M:RES0805_CRG_TYCO_TYC" (at 184.15 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 184.15 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 219b566f-90b4-4b0c-af62-20eb87cba259))
     (pin "2" (uuid ecf84e1f-a746-42ac-bded-a64c9d1dc0cb))
     (pin "3" (uuid 3796f677-3cd7-4de0-b335-c4525ed127f3))
-    (pin "1" (uuid 219b566f-90b4-4b0c-af62-20eb87cba259))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -7248,7 +7248,7 @@
     (property "Value" "47k" (at 48.26 220.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 43.942 219.71 90)
+    (property "Footprint" "Resistor_47k:RES_CFR50_TYCO_TYC" (at 43.942 219.71 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 45.72 219.71 0)
@@ -7299,7 +7299,7 @@
     (property "Value" "10k" (at 87.63 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 90.932 153.67 90)
+    (property "Footprint" "Resistor_10k:RES_CFR25_TYCO_TYC" (at 90.932 153.67 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 92.71 153.67 0)
@@ -7355,7 +7355,7 @@
     (property "Value" "10k" (at 102.87 163.83 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 100.33 163.068 90)
+    (property "Footprint" "Resistor_10k:RES_CFR25_TYCO_TYC" (at 100.33 163.068 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 100.33 161.29 0)
@@ -7387,8 +7387,8 @@
     (property "Datasheet" "~" (at 132.08 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 0ea2b0c2-1a38-4de1-b0f2-b6db6196947f))
     (pin "1" (uuid ae2ea029-527c-4851-9ab4-7a990728f22f))
+    (pin "2" (uuid 0ea2b0c2-1a38-4de1-b0f2-b6db6196947f))
     (instances
       (project "Project"
         (path "/90f0ab74-59db-459e-b705-994ce4b61f4e"
@@ -7407,7 +7407,7 @@
     (property "Value" "1M" (at 160.02 232.41 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 160.02 229.108 90)
+    (property "Footprint" "Resistor_1M:RES0805_CRG_TYCO_TYC" (at 160.02 229.108 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 160.02 227.33 0)
@@ -7433,7 +7433,7 @@
     (property "Value" "100p" (at 66.04 160.02 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 62.23 154.6352 0)
+    (property "Footprint" "Capacitor_100p:564R60GAT10_VIS" (at 62.23 154.6352 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 66.04 153.67 0)

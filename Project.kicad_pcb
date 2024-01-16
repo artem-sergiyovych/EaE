@@ -233,6 +233,11 @@
       (net 78 "Net-(MK1-+)") (pintype "passive") (tstamp 5abe43ed-5cae-42a3-8512-8eec80d1ccf9))
     (pad "2" thru_hole circle (at 5.08 0) (size 1.3208 1.3208) (drill 0.8128) (layers "*.Cu" "*.Mask")
       (net 79 "Net-(U5-IN+)") (pintype "passive") (tstamp 9a787163-3a8f-45e2-8026-294800ecd80b))
+    (model "${KIPRJMOD}/Elements/Capacitor_0_01uF/CAP_BFC237035223_VIS.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1.1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_0_1uF:CAP_BFC233814104_VIS" (layer "F.Cu")
@@ -289,6 +294,11 @@
       (net 80 "Net-(C9-Pad1)") (pintype "passive") (tstamp 019a3f7f-760c-4953-91e4-8e02370df400))
     (pad "2" thru_hole circle (at 15.000001 0) (size 1.5748 1.5748) (drill 1.0668) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pintype "passive") (tstamp 95d5c74d-f38e-487a-be68-c282e915d132))
+    (model "${KIPRJMOD}/Elements/Capacitor_0_1uF/KiCADv6/3dmodel/CAP_BFC233814104_VIS.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "NHD-0420CW-AB3:LCD_NHD-0420CW-AB3" (layer "F.Cu")
@@ -401,6 +411,11 @@
       (solder_mask_margin 0.102) (tstamp 7c5f08ff-7431-4a6a-a342-7feadede6a62))
     (pad "SH4" thru_hole circle (at -45.7 12.75) (size 3.5 3.5) (drill 2.5) (layers "*.Cu" "*.Mask")
       (solder_mask_margin 0.102) (tstamp f3bc77b1-d176-46b9-b6ce-7d79e220c477))
+    (model "${KIPRJMOD}/Elements/NHD-0420CW-AB3/NHD-0420CW-AB3.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_1k:RES_CFR200_TYCO_TYC" (layer "F.Cu")
@@ -548,6 +563,11 @@
       (net 3 "unconnected-(PS1-BC+-Pad5)") (pinfunction "BC+") (pintype "passive+no_connect") (solder_mask_margin 0.102) (tstamp a7011060-28f5-4522-aecb-ecfdf942bd14))
     (pad "6" thru_hole circle (at -15.45 -11.69) (size 2.25 2.25) (drill 1.5) (layers "*.Cu" "*.Mask")
       (net 4 "unconnected-(PS1-BC--Pad6)") (pinfunction "BC-") (pintype "passive+no_connect") (solder_mask_margin 0.102) (tstamp f5153f21-3cdb-41c1-b650-16cb267f2481))
+    (model "${KIPRJMOD}/Elements/PSK-S25B-5-PB/PSK-S25B-5-PB--3DModel-STEP-387902.STEP"
+      (offset (xyz -1 0 13))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_47uF:CAP_EEFK_D_PAN" (layer "F.Cu")
@@ -665,6 +685,11 @@
           (xy 79.080099 109.3416)
         )
       )
+    )
+    (model "${KIPRJMOD}/Elements/Capacitor_47uF/6.3 SIZE CODE D.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -888,6 +913,11 @@
       (net 16 "VDD5") (pintype "passive") (tstamp a68ef33f-3d25-41ef-a71d-dcd6379df77b))
     (pad "2" thru_hole circle (at 11.52144 0) (size 1.397 1.397) (drill 0.889) (layers "*.Cu" "*.Mask")
       (net 81 "Net-(C11-Pad1)") (pintype "passive") (tstamp c46d6649-b455-4f3a-8ead-d25cea67135e))
+    (model "${KIPRJMOD}/Elements/Resistor_10k/KiCADv6/3dmodel/RES_CFR25_TYCO_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "TerminalBlock_RND:TerminalBlock_RND_205-00012_1x02_P5.00mm_Horizontal" (layer "F.Cu")
@@ -999,9 +1029,9 @@
       (net 13 "AC230P") (pinfunction "Pin_1") (pintype "passive") (tstamp 56169e6b-28d9-4dec-90f1-dd17b6215aeb))
     (pad "2" thru_hole circle (at 5 0) (size 2.5 2.5) (drill 1.3) (layers "*.Cu" "*.Mask")
       (net 14 "AC230N") (pinfunction "Pin_2") (pintype "passive") (tstamp a8ee507f-f763-48a0-b31d-34035036f22b))
-    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_RND.3dshapes/TerminalBlock_RND_205-00012_1x02_P5.00mm_Horizontal.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+    (model "${KIPRJMOD}/Elements/Screw_Terminal/640384-2.stp"
+      (offset (xyz 2.5 0 0))
+      (scale (xyz 1.3 1.2 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -1076,6 +1106,11 @@
       (net 78 "Net-(MK1-+)") (pintype "passive") (tstamp 2d172e90-a8a8-41a3-a3df-06acf5d6ea7d))
     (pad "2" thru_hole circle (at 11.4046 0) (size 1.3716 1.3716) (drill 0.8636) (layers "*.Cu" "*.Mask")
       (net 80 "Net-(C9-Pad1)") (pintype "passive") (tstamp f7332b54-3eef-4290-b07f-fd4405740bea))
+    (model "${KIPRJMOD}/Elements/Resistor_2k/KiCADv6/3dmodel/RES_TYCO_YR1_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "DIP-MOTION_POSITION-LHI778_3P-D8.1MM_:SNR3-D8.1XH4.2MM" (layer "F.Cu")
@@ -1326,6 +1361,11 @@
       (net 2 "GND") (pintype "passive") (tstamp 3759901b-163e-4d44-b9b5-46fd6c93a7e6))
     (pad "2" thru_hole circle (at 5.08 0) (size 1.3208 1.3208) (drill 0.8128) (layers "*.Cu" "*.Mask")
       (net 68 "Net-(C7-Pad2)") (pintype "passive") (tstamp 2345f6dc-27af-48f5-a6f0-e4bee6b925a3))
+    (model "${KIPRJMOD}/Elements/Capacitor_1uF/CAP_BFC237012105_VIS.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1.1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_2k:RES_TYCO_YR1_TYC" (layer "F.Cu")
@@ -1398,6 +1438,11 @@
       (net 97 "Net-(C18-Pad2)") (pintype "passive") (tstamp 2ebc123e-2c7a-4597-918c-3cac5e65c919))
     (pad "2" thru_hole circle (at 11.4046 0) (size 1.3716 1.3716) (drill 0.8636) (layers "*.Cu" "*.Mask")
       (net 83 "Net-(C17-Pad1)") (pintype "passive") (tstamp 4802fbbe-4392-4636-bae2-7c67df0bf463))
+    (model "${KIPRJMOD}/Elements/Resistor_2k/KiCADv6/3dmodel/RES_TYCO_YR1_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_10k:RES_CFR25_TYCO_TYC" (layer "F.Cu")
@@ -1470,6 +1515,11 @@
       (net 93 "Net-(U7-RR1)") (pintype "passive") (tstamp e4569547-25b8-4a46-9cd1-2674c9a96006))
     (pad "2" thru_hole circle (at 11.52144 0) (size 1.397 1.397) (drill 0.889) (layers "*.Cu" "*.Mask")
       (net 94 "Net-(R28-Pad2)") (pintype "passive") (tstamp 6cd01df7-219b-4a76-b5a8-f486da91356e))
+    (model "${KIPRJMOD}/Elements/Resistor_10k/KiCADv6/3dmodel/RES_CFR25_TYCO_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "MAX4466EXK:SOT65P210X110-5N" (layer "F.Cu")
@@ -1613,7 +1663,7 @@
 
   (footprint "Resistor_6_8k:RES_ROX1S_TYCO_TYC" (layer "F.Cu")
     (tstamp 4b11a95d-ca91-48f0-af34-6fa2e4d72209)
-    (at 76.8005 102.1548)
+    (at 76.839998 101.6)
     (tags "ROX1SJ6K8 ")
     (property "Sheetfile" "Project.kicad_sch")
     (property "Sheetname" "")
@@ -1681,6 +1731,11 @@
       (net 98 "Net-(U7-2IN-)") (pintype "passive") (tstamp f5bf0a2d-c2ee-4fc0-be50-42e04e4089ff))
     (pad "2" thru_hole circle (at 14.600002 0) (size 1.524 1.524) (drill 1.016) (layers "*.Cu" "*.Mask")
       (net 97 "Net-(C18-Pad2)") (pintype "passive") (tstamp af1df3bb-102b-4858-9859-651cfe5301ff))
+    (model "${KIPRJMOD}/Elements/Resistor_6_8k/RES_ROX1S_TYCO_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_22uF:PCAP_125x25_PAN" (layer "F.Cu")
@@ -1737,6 +1792,11 @@
       (net 83 "Net-(C17-Pad1)") (pintype "passive") (tstamp 63b0886e-3908-4a4a-a5d6-88cac91323df))
     (pad "2" thru_hole circle (at 5.0038 0) (size 1.524 1.524) (drill 0.9652) (layers "*.Cu" "*.Mask")
       (net 84 "Net-(U7-1OUT)") (pintype "passive") (tstamp a3bf9dae-cabf-48ec-9dd9-f2cccb0cf406))
+    (model "${KIPRJMOD}/Elements/Capacitor_22uF/KiCADv6/3dmodel/PCAP_125x25_PAN.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_0_1uF:CAP_BFC233814104_VIS" (layer "F.Cu")
@@ -1834,7 +1894,7 @@
       (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 34466388-94f7-4598-bf2b-47218798c6bb))
     (fp_arc (start 3.925916 2.548276) (mid 3.029459 3.01425) (end 2.032 3.175)
       (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 70a551cd-322b-48c6-80e0-e697dd2ff8b6))
-    (fp_arc (start 5.207 0) (mid 5.18497 0.373374) (end 5.119184 0.741566)
+    (fp_arc (start 5.207 0) (mid 5.184969 0.373374) (end 5.119184 0.741566)
       (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp aba2bc28-1b8a-47ff-a47f-c5aaa998e87e))
     (fp_line (start -5.8039 -3.302) (end 5.8039 -3.302)
       (stroke (width 0.1524) (type solid)) (layer "F.CrtYd") (tstamp 8c877fac-dbcb-4e75-8a7d-bbc6001bc9ea))
@@ -1856,6 +1916,11 @@
       (net 65 "MIC") (pintype "passive") (tstamp 006f073a-b077-48be-be16-9b33a2bc5ed0))
     (pad "2" thru_hole circle (at 4.7625 1.8034) (size 1.5748 1.5748) (drill 1.0668) (layers "*.Cu" "*.Mask")
       (net 67 "Net-(U5-IN-)") (pintype "passive") (tstamp ae50d6f2-4192-42e9-b229-71cf0ad0cdd5))
+    (model "${KIPRJMOD}/Elements/Capacitor_100p/564R60GAT10_VIS.step"
+      (offset (xyz -4.5 0 2.5))
+      (scale (xyz 1.0001 1 0.7))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_100k:RES0402_CRG_TYCO_TYC" (layer "F.Cu")
@@ -2051,6 +2116,11 @@
       (net 96 "Net-(U7-1IN-)") (pinfunction "1IN-") (pintype "input") (solder_mask_margin 0.102) (tstamp 76387d0f-1bad-4a5a-83d6-27ecd41aff56))
     (pad "16" smd roundrect (at 2.75 -4.445) (size 1.31 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.08)
       (net 84 "Net-(U7-1OUT)") (pinfunction "1OUT") (pintype "output") (solder_mask_margin 0.102) (tstamp a7cfd258-08f6-4006-9fb1-62fc54969b9f))
+    (model "${KIPRJMOD}/Elements/BISS0001/BISS0001_YTS.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "MOC3021M:PDIP6_BX_ONS" (layer "F.Cu")
@@ -2335,8 +2405,8 @@
     (pad "S1" thru_hole circle (at 0 -14.5) (size 1.5 1.5) (drill 1) (layers "*.Cu" "*.Mask")
       (net 64 "SW2") (pinfunction "S1") (pintype "passive") (tstamp c6b619e0-6d74-4475-8066-0458e15c304c))
     (pad "W1" thru_hole circle (at 5 -14.5) (size 1.5 1.5) (drill 1) (layers "*.Cu" "*.Mask") (tstamp d0bf41a5-9b11-43a1-a203-6f9ed9919a69))
-    (model "PEC11H-4025F-S0016.stp"
-      (offset (xyz 2.499999962 8.10000026 6.489999674))
+    (model "${KIPRJMOD}/Elements/PEC11H_RE/PEC11H-4025F-S0016/3D/PEC11H-4025F-S0016.stp"
+      (offset (xyz 2.5 7.6 6.49))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -2473,6 +2543,11 @@
       (net 41 "ENC2_2") (pintype "passive") (tstamp 7f6a569e-137b-4f45-a9e6-7ffd8a73e586))
     (pad "2" thru_hole circle (at 11.52144 0) (size 1.397 1.397) (drill 0.889) (layers "*.Cu" "*.Mask")
       (net 16 "VDD5") (pintype "passive") (tstamp 7a8b4ebb-c6aa-4671-a79c-6e02776e2492))
+    (model "${KIPRJMOD}/Elements/Resistor_10k/KiCADv6/3dmodel/RES_CFR25_TYCO_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_1M:RES0805_CRG_TYCO_TYC" (layer "F.Cu")
@@ -2854,9 +2929,9 @@
       (net 14 "AC230N") (pinfunction "Pin_1") (pintype "passive") (tstamp 7d0ceb2b-6314-4eaf-b1ff-e1941ce32296))
     (pad "2" thru_hole circle (at 5 0) (size 2.5 2.5) (drill 1.3) (layers "*.Cu" "*.Mask")
       (net 15 "LOAD1_P") (pinfunction "Pin_2") (pintype "passive") (tstamp 0f8e5e11-a858-4cd4-9582-262400a6d4c8))
-    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_RND.3dshapes/TerminalBlock_RND_205-00012_1x02_P5.00mm_Horizontal.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+    (model "${KIPRJMOD}/Elements/Screw_Terminal/640384-2.stp"
+      (offset (xyz 2.5 0 0))
+      (scale (xyz 1.3 1.2 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3008,6 +3083,11 @@
       (net 16 "VDD5") (pintype "passive") (tstamp bcd4334f-3694-452c-a7c3-246df2789d78))
     (pad "2" thru_hole circle (at 11.52144 0) (size 1.397 1.397) (drill 0.889) (layers "*.Cu" "*.Mask")
       (net 34 "ENC1_1") (pintype "passive") (tstamp 6d3fa431-69e8-4e34-9f9c-a10f17580c0b))
+    (model "${KIPRJMOD}/Elements/Resistor_10k/KiCADv6/3dmodel/RES_CFR25_TYCO_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_1M:RES0805_CRG_TYCO_TYC" (layer "F.Cu")
@@ -3547,6 +3627,11 @@
       (net 87 "Net-(U6-S)") (pintype "passive") (tstamp f8089863-0fef-478b-9def-f08fa328169f))
     (pad "2" thru_hole circle (at 13.72108 0) (size 1.397 1.397) (drill 0.889) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pintype "passive") (tstamp fe07797d-dc6a-4268-9b61-40d2fbdcb479))
+    (model "${KIPRJMOD}/Elements/Resistor_47k/KiCADv6/3dmodel/RES_CFR50_TYCO_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_1M:RES0805_CRG_TYCO_TYC" (layer "F.Cu")
@@ -3750,8 +3835,8 @@
     (pad "S1" thru_hole circle (at 0 -14.5) (size 1.5 1.5) (drill 1) (layers "*.Cu" "*.Mask")
       (net 32 "SW1") (pinfunction "S1") (pintype "passive") (tstamp dd6ba33e-fccf-4587-9a8d-3c18b2b9f0ea))
     (pad "W1" thru_hole circle (at 5 -14.5) (size 1.5 1.5) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 11e2572b-e009-4cd9-a17f-06017d6b112e))
-    (model "PEC11H-4025F-S0016.stp"
-      (offset (xyz 2.499999962 8.10000026 6.489999674))
+    (model "${KIPRJMOD}/Elements/PEC11H_RE/PEC11H-4025F-S0016/3D/PEC11H-4025F-S0016.stp"
+      (offset (xyz 2.5 7.6 6.49))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4186,6 +4271,11 @@
       (net 86 "Net-(U7-VO)") (pintype "passive") (tstamp 5f05cbea-b45d-4efc-9b95-b8f226f9fa45))
     (pad "2" thru_hole circle (at 22.00148 0) (size 1.524 1.524) (drill 1.016) (layers "*.Cu" "*.Mask")
       (net 66 "PIR_SENS") (pintype "passive") (tstamp 8abd9f86-34d0-4561-b37d-3f51d646f73b))
+    (model "${KIPRJMOD}/Elements/Resistor_1k/KiCADv6/3dmodel/RES_CFR200_TYCO_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_22uF:PCAP_125x25_PAN" (layer "F.Cu")
@@ -4242,6 +4332,11 @@
       (net 16 "VDD5") (pintype "passive") (tstamp 34607269-fecd-442f-91be-f4062dffa458))
     (pad "2" thru_hole circle (at 5.0038 0) (size 1.524 1.524) (drill 0.9652) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pintype "passive") (tstamp feaeab01-1a72-405b-8b20-972eeb4b4aff))
+    (model "${KIPRJMOD}/Elements/Capacitor_22uF/KiCADv6/3dmodel/PCAP_125x25_PAN.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "RF_Module:ESP32-WROOM-32D" (layer "F.Cu")
@@ -4499,10 +4594,10 @@
         )
       )
     )
-    (model "${KICAD6_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-WROOM-32D.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/Elements/ESP32-DEVKITC-32D/ESP32-WROOM-32D(M113DH6400PH3Q0).STEP"
+      (offset (xyz 0 3 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -4576,6 +4671,11 @@
       (net 80 "Net-(C9-Pad1)") (pintype "passive") (tstamp 3e5e3f64-b416-436e-9ce5-e5a90fe1149b))
     (pad "2" thru_hole circle (at 11.4046 0) (size 1.3716 1.3716) (drill 0.8636) (layers "*.Cu" "*.Mask")
       (net 16 "VDD5") (pintype "passive") (tstamp 0ffd5a1a-6d0c-4b96-b151-c6124f8019af))
+    (model "${KIPRJMOD}/Elements/Resistor_2k/KiCADv6/3dmodel/RES_TYCO_YR1_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_10k:RES_CFR25_TYCO_TYC" (layer "F.Cu")
@@ -4648,6 +4748,11 @@
       (net 16 "VDD5") (pintype "passive") (tstamp a2a7fecf-1d48-49f1-ac1a-10c0ab21cbf7))
     (pad "2" thru_hole circle (at 11.52144 0) (size 1.397 1.397) (drill 0.889) (layers "*.Cu" "*.Mask")
       (net 63 "ENC2_1") (pintype "passive") (tstamp bc51d90b-2b18-42b3-983d-1da79bb26cca))
+    (model "${KIPRJMOD}/Elements/Resistor_10k/KiCADv6/3dmodel/RES_CFR25_TYCO_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "MCT2E:DIP762W50P254L742H480Q6" (layer "F.Cu")
@@ -4898,6 +5003,11 @@
       (net 67 "Net-(U5-IN-)") (pintype "passive") (tstamp 24dd00fd-226e-4b02-8d1b-bf41f61b8b87))
     (pad "2" thru_hole circle (at 11.52144 0) (size 1.397 1.397) (drill 0.889) (layers "*.Cu" "*.Mask")
       (net 68 "Net-(C7-Pad2)") (pintype "passive") (tstamp d34dca58-1e54-4005-843a-de2f4c5b933b))
+    (model "${KIPRJMOD}/Elements/Resistor_10k/KiCADv6/3dmodel/RES_CFR25_TYCO_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Photoresistor:LDR1_NTE" (layer "F.Cu")
@@ -4950,6 +5060,11 @@
       (net 90 "Net-(R25-Pad2)") (pintype "passive") (tstamp 24ca74eb-2849-43b9-91ae-35e640111ae0))
     (pad "2" thru_hole circle (at 3.4036 0) (size 1.27 1.27) (drill 0.762) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pintype "passive") (tstamp e67b191a-0f6b-4ce0-83df-1e6d78f4334d))
+    (model "${KIPRJMOD}/Elements/Photoresistor/LDR1_NTE.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_1M:RES0805_CRG_TYCO_TYC" (layer "F.Cu")
@@ -5146,6 +5261,11 @@
         )
       )
     )
+    (model "${KIPRJMOD}/Elements/Capacitor_47uF/6.3 SIZE CODE D.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_10k:RES_CFR25_TYCO_TYC" (layer "F.Cu")
@@ -5218,6 +5338,11 @@
       (net 33 "ENC1_2") (pintype "passive") (tstamp 0451a127-2c0a-4b5c-96e2-d9834e0b44fd))
     (pad "2" thru_hole circle (at 11.52144 0) (size 1.397 1.397) (drill 0.889) (layers "*.Cu" "*.Mask")
       (net 16 "VDD5") (pintype "passive") (tstamp 959b73a9-fef9-4aa2-8bc4-49a6c14cb0ce))
+    (model "${KIPRJMOD}/Elements/Resistor_10k/KiCADv6/3dmodel/RES_CFR25_TYCO_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_330:RES_LR1_TYCO_TYC" (layer "F.Cu")

@@ -841,6 +841,11 @@
         )
       )
     )
+    (model "${KIPRJMOD}/Elements/Resistor_18k/RES0603_CRG_TYCO_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1.1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_10k:RES_CFR25_TYCO_TYC" (layer "F.Cu")
@@ -1149,6 +1154,11 @@
       (net 87 "Net-(U6-S)") (pinfunction "S") (pintype "bidirectional") (solder_mask_margin 0.102) (tstamp 111f9dc0-74e5-4de6-babe-3cae8027299d))
     (pad "3" thru_hole circle (at -1.778 1.778) (size 1.308 1.308) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pinfunction "G") (pintype "bidirectional") (solder_mask_margin 0.102) (tstamp 90cbd4e8-5e15-488a-97a1-2379d47b4513))
+    (model "${KIPRJMOD}/Elements/DIP-MOTION_POSITION-LHI778_3P-D8.1MM_/ZRE200GE--3DModel-STEP-56544.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_1M:RES0805_CRG_TYCO_TYC" (layer "F.Cu")
@@ -1227,6 +1237,11 @@
         )
       )
     )
+    (model "${KIPRJMOD}/Elements/Resistor_1M/RES0805_CRG_TYCO_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1.1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_470k:RES0805_CRG_TYCO_TYC" (layer "F.Cu")
@@ -1304,6 +1319,11 @@
           (xy 55.3177 112.2124)
         )
       )
+    )
+    (model "${KIPRJMOD}/Elements/Resistor_470k/RES0805_CRG_TYCO_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1.1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -1598,6 +1618,11 @@
       (net 65 "MIC") (pinfunction "OUT") (pintype "output") (solder_mask_margin 0.102) (tstamp 01d872bc-15d0-42c1-9631-d2eea84fb43e))
     (pad "5" smd roundrect (at 0.96 -0.65) (size 1.19 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 16 "VDD5") (pinfunction "VCC") (pintype "power_in") (solder_mask_margin 0.102) (tstamp 5164c62d-4791-4d48-b263-1385b8775a97))
+    (model "${KIPRJMOD}/Elements/MAX4466EXK/MAX4466EXK.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1.3 1.2 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_22uF:PCAP_125x25_PAN" (layer "F.Cu")
@@ -1894,7 +1919,7 @@
       (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 34466388-94f7-4598-bf2b-47218798c6bb))
     (fp_arc (start 3.925916 2.548276) (mid 3.029459 3.01425) (end 2.032 3.175)
       (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 70a551cd-322b-48c6-80e0-e697dd2ff8b6))
-    (fp_arc (start 5.207 0) (mid 5.184969 0.373374) (end 5.119184 0.741566)
+    (fp_arc (start 5.207 0) (mid 5.18497 0.373374) (end 5.119184 0.741566)
       (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp aba2bc28-1b8a-47ff-a47f-c5aaa998e87e))
     (fp_line (start -5.8039 -3.302) (end 5.8039 -3.302)
       (stroke (width 0.1524) (type solid)) (layer "F.CrtYd") (tstamp 8c877fac-dbcb-4e75-8a7d-bbc6001bc9ea))
@@ -1994,6 +2019,11 @@
           (xy 93.8249 78.6842)
         )
       )
+    )
+    (model "${KIPRJMOD}/Elements/Resistor_100k/RES0402_CRG_TYCO_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1.2 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -2626,6 +2656,11 @@
         )
       )
     )
+    (model "${KIPRJMOD}/Elements/Resistor_1M/RES0805_CRG_TYCO_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1.1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_0_1uF:CAP_BFC233814104_VIS" (layer "F.Cu")
@@ -3166,6 +3201,11 @@
         )
       )
     )
+    (model "${KIPRJMOD}/Elements/Resistor_1M/RES0805_CRG_TYCO_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1.1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_1M:RES0805_CRG_TYCO_TYC" (layer "F.Cu")
@@ -3244,6 +3284,11 @@
         )
       )
     )
+    (model "${KIPRJMOD}/Elements/Resistor_1M/RES0805_CRG_TYCO_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1.1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_1M:RES0805_CRG_TYCO_TYC" (layer "F.Cu")
@@ -3321,6 +3366,11 @@
           (xy 55.3177 115.2698)
         )
       )
+    )
+    (model "${KIPRJMOD}/Elements/Resistor_1M/RES0805_CRG_TYCO_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1.1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -3477,6 +3527,11 @@
         )
       )
     )
+    (model "${KIPRJMOD}/Elements/Resistor_18k/RES0603_CRG_TYCO_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1.1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_1M:RES0805_CRG_TYCO_TYC" (layer "F.Cu")
@@ -3554,6 +3609,11 @@
           (xy 55.3177 118.3272)
         )
       )
+    )
+    (model "${KIPRJMOD}/Elements/Resistor_1M/RES0805_CRG_TYCO_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1.1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -3709,6 +3769,11 @@
           (xy 51.0983 118.3272)
         )
       )
+    )
+    (model "${KIPRJMOD}/Elements/Resistor_1M/RES0805_CRG_TYCO_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1.1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -4121,6 +4186,11 @@
           (xy 93.8757 76.4656)
         )
       )
+    )
+    (model "${KIPRJMOD}/Elements/Resistor_18k/RES0603_CRG_TYCO_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1.1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -5142,6 +5212,11 @@
           (xy 51.0983 112.2124)
         )
       )
+    )
+    (model "${KIPRJMOD}/Elements/Resistor_1M/RES0805_CRG_TYCO_TYC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1.1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 

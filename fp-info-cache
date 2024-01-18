@@ -1,4 +1,4 @@
-22416459346862377
+22424987096900486
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2617,6 +2617,34 @@ BFC237012105
 0
 2
 2
+Capacitor_5nF
+CAP_1812_AVX
+
+1812AC502KAT1A 
+0
+2
+2
+Capacitor_5nF
+CAP_1812_AVX-L
+
+1812AC502KAT1A 
+0
+2
+2
+Capacitor_5nF
+CAP_1812_AVX-M
+
+1812AC502KAT1A 
+0
+2
+2
+Capacitor_10nF
+CAPC1005X55N
+
+
+0
+2
+2
 Capacitor_22uF
 PCAP_125x25_PAN
 
@@ -2642,6 +2670,13 @@ Capacitor_47uF
 CAP_EEFK_D_PAN-M
 
 EEE-FP1V470AP 
+0
+2
+2
+Capacitor_100nF
+WMF_08.1DX23.8LX0.6d_CND
+
+WMF2P1K-F 
 0
 2
 2

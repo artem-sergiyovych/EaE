@@ -31,5 +31,7 @@
   (lib (name "PEC11H_RE")(type "KiCad")(uri "${KIPRJMOD}/Elements/PEC11H_RE/PEC11H-4025F-S0016/KiCad")(options "")(descr ""))
   (lib (name "Capacitor_3")(type "KiCad")(uri "${KIPRJMOD}/Elements/Capacitor_3.pretty")(options "")(descr ""))
   (lib (name "Capacitor_4")(type "KiCad")(uri "${KIPRJMOD}/Elements/Capacitor_4.pretty")(options "")(descr ""))
-  (lib (name "Capacitor_100F")(type "KiCad")(uri "${KIPRJMOD}/Elements/Capacitor_100F.pretty")(options "")(descr ""))
+  (lib (name "Capacitor_100nF")(type "KiCad")(uri "${KIPRJMOD}/Elements/Capacitor_100nF/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "Capacitor_10nF")(type "KiCad")(uri "${KIPRJMOD}/Elements/Capacitor_10nF")(options "")(descr ""))
+  (lib (name "Capacitor_5nF")(type "KiCad")(uri "${KIPRJMOD}/Elements/Capacitor_5nF/KiCADv6/footprints.pretty")(options "")(descr ""))
 )

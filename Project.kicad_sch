@@ -6,6 +6,10 @@
 
   (title_block
     (title "Home Light System")
+    (date "2024-01-26")
+    (comment 1 "Mateusz Adamczyk")
+    (comment 2 "Artem Tymoshchuk")
+    (comment 3 "Maksym Babak")
   )
 
   (lib_symbols
